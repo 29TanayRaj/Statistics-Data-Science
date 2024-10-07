@@ -1,0 +1,37 @@
+## Student's t-test
+
+The Student's t-test is a statistical method used to determine if there's a significant difference between the means of two groups, considering sample size and data variability.
+
+**Three main variations:**
+
+1. **One-sample t-test**
+2. **Independent two-sample t-test**
+3. **Paired t-test**
+
+### One-sample t-test
+
+**When to use:**
+* To compare a sample mean to a known or hypothesized population mean.
+
+**Idea:**
+* Standardizes the difference between sample and population means by considering standard deviation and sample size.
+
+**Formula:**
+$$ t = \frac{\bar{x} - \mu_{o}}{s/\sqrt(n)}$$
+
+where:
+* `x̄`: Sample mean
+* `μ₀`: Hypothesized population mean
+* `s`: Sample standard deviation
+* `n`: Sample size
+
+**Degrees of freedom:** `n - 1`
+
+**Hypotheses:**
+
+* **Null hypothesis (H₀):** `x̄ = μ₀` (No difference)
+* **Alternative hypothesis (H₁):**
+  * **Two-sided:** `x̄ ≠ μ₀` (Difference exists)
+  * **One-sided:**
+    * `x̄ < μ₀` (Sample mean is less than population mean)
+    * `x̄ > μ₀` (Sample mean is greater than population mean)
